@@ -3657,7 +3657,7 @@
   },
   {
     "name": "Piratebay",
-    "url": "^https://(www.)?openpirate.cc/",
+    "url": "^https://(the)?piratebay.\\.asia/",
     "nextLink": "//a[img[@alt=\"Next\"]]",
     "pageElement": "//div[@id=\"main-content\"]"
   },

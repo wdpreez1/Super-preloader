@@ -1,6 +1,6 @@
 {
   "name": "super-preloader",
-  "version": "6.15.10",
+  "version": "6.15.12",
   "description": "Super-preloader",
   "main": "dist/Super_preloaderPlus_one_New.user.js",
   "author": "Mach6",
@@ -17,7 +17,7 @@
     "url": "git+https://github.com/machsix/Super-preloader.git"
   },
   "scripts": {
-    "lint": "eslint \"dist/*.json\" \"src/**/*.js\" \"ci/*.js\" \"rollup.config.js\"",
+    "lint": "eslint --fix \"dist/*.json\" \"src/**/*.js\" \"ci/*.js\" \"rollup.config.js\"",
     "format": "prettier --write \"dist/*.json\" \"src/**/*.{js,css}\" \"ci/*.js\" \"rollup.config.js\" \"docs/**/*.{js,md}\"",
     "format:check": "prettier --check \"dist/*.json\" \"src/**/*.{js,css}\" \"ci/*.js\" \"rollup.config.js\" \"docs/**/*.{js,md}\"",
     "format:staged": "pretty-quick --verbose --staged --write \"dist/*.json\" \"src/**/*.{js,css}\" \"ci/*.js\" \"rollup.config.js\" \"docs/**/*.{js,md}\"",
