@@ -87,3 +87,4 @@ docs/.vuepress/dist
 
 test/**/*
 !test/*.js
+dist/wedata.json
