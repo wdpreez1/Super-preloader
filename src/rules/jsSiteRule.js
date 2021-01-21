@@ -1286,22 +1286,22 @@ export const jsSiteRule = [
     }
   },
   {
-    "name": "Piratebay",
-    "url": "^https://(the)?piratebay.\\.asia/",
-    "nextLink": "//a[img[@alt=\"Next\"]]",
-    "pageElement": "//div[@id=\"main-content\"]"
+    name: 'Piratebay',
+    url: '^https://(the)?piratebay.\\..*/',
+    nextLink: '//a[@alt="Next"]@href',
+    pageElement: '//table[@id="searchResult"]'
   },
   {
-    "name": "RARBG",
-    "url": "^https?://(proxy)?rarbg(mirror|proxy|to|2018)?.(to|net|org)/",
-    "nextLink": "//div[@if=\"pager_links\"]/a[@title=\"next page\"]",
-    "pageElement": "//table[@class=\"lista2t\"]"
+    name: 'RARBG',
+    url: '^https?://(proxy)?rarbg(mirror|proxy|to|2018)?.(to|net|org)/',
+    nextLink: '//div[@if="pager_links"]/a[@title="next page"]',
+    pageElement: '//table[@class="lista2t"]'
   },
   {
-    "name": "Bahngotz",
-    "url": "^https?:/www.bahngotz.com/",
-    "nextLink": "//li[@class=\"ellipsis\"]/a[@class=\"pagenext\"]",
-    "pageElement": "//div[@class=\"producttile-list\"]"
+    name: 'Bahngotz',
+    url: '^https?:/www.bahngotz.com/',
+    nextLink: '//li[@class="ellipsis"]/a[@class="pagenext"]',
+    pageElement: '//div[@class="producttile-list"]'
   }
 ];
 
